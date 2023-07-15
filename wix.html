@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wix</title>
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            background-image: url(/mountain.jpg);
+            /* background-size: 100% 800%; */
+            background-repeat: no-repeat;
+            background-size: 1500px 565px;
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Baloo Bhai', cursive;
+        }
+        .container{
+            background-color: rgb(27, 5, 70);
+            margin-top: 30px;
+            height: 70px;
+            /* border: solid 2px red; */
+
+        }
+        .left {
+            /* border: solid 3px green; */
+            display: inline-block;
+            height: 70px;
+        }
+
+        span{
+            display: inline-block;
+            position: absolute;
+            margin-top:22px;
+            margin-left: 10px;
+            color: white;
+            font-size: 18px;
+        }
+
+        .left a img {
+            /* border: solid 3px white; */
+            display: inline-block;
+            margin-top: 5px;
+            width: 50px;
+            height: 60px;
+            filter: invert(100%);
+            cursor: pointer;
+        }
+        .middle {
+            /* border: solid 3px yellow; */
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 300px;
+            padding: 10px;
+            display: inline-block;
+            width: 51%;
+
+        }
+        .navbar{
+            display: inline-block;
+            margin: 1px;
+            padding:0px;
+        }
+
+        .navbar li{
+            display: inline;
+            font-size: 18px;
+            padding: 7px;   
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar li a:hover{
+            color: blueviolet;
+        }
+
+        .right {
+            /* border: solid 3px blue; */
+            margin: 15px;
+            padding: 5px;
+            display: inline-block;
+            position: absolute;
+            top: 30px;
+            right: 70px;
+        }
+
+        .right a{
+            color: white;
+            text-decoration: none;
+            /* display: inline-block; */
+            width: 60px;
+            cursor: pointer;
+            padding: 5px;
+            position: absolute;
+            bottom: 3px;
+        }
+        .box{
+            /* border: solid 2px red; */
+            width: 450px;
+            height: 150px;
+            background-color: white;
+            display: inline-block;
+            position: absolute;
+            top: 435px;
+            left: 250px;
+        }
+
+        .box div {
+            text-align: center;
+        }
+
+        .btn{
+            display: block;
+            position: absolute;
+            left: 150px;    
+        }
+        .btn:hover{
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+    <div class="container">
+        <div class="left">
+            <a href="/wix.html" target="_blank"><img src="/wix.png" alt="Error"></a>
+            <span>JAMES CONSUNTING</span>
+        </div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Plans and Pricing</a></li>
+                <li><a href="#">Tools and Tips</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <i class="fa fa-sign-in" style="font-size:24px;color: white;"></i>
+            <a href="#">Log In</a>
+        </div></div>
+    </header>
+</body>
+    <div class="box">
+        <div style="font-size: 15px;">Developing Innovative Strategies</div>
+        <div style="font-size: 50px">Achieving Growth</div>
+        <button class="btn">Book a Consulation</button>
+    </div>
+</html>
